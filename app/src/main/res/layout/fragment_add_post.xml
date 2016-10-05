@@ -1,0 +1,34 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.AddPostFragment"
+    android:background="@color/primaryText"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="left|top"
+        android:src="@drawable/blog3"
+        />
+
+    <Button
+        android:layout_width="151dp"
+        android:layout_height="61dp"
+        android:text="Addcomment"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginTop="70dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="252dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/textView"
+        android:layout_gravity="center"
+        android:background="@color/dividerColor"
+        android:textStyle="italic"/>
+</FrameLayout>
